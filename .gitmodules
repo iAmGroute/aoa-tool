@@ -1,0 +1,3 @@
+[submodule "scrcpy-for-aoa"]
+	path = scrcpy-for-aoa
+	url = https://github.com/iAmGroute/scrcpy-for-aoa.git
