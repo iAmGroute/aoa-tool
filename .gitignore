@@ -55,6 +55,3 @@ dkms.conf
 *.tar
 *.tgz
 *.txz
-
-# Testfiles
-test_*
