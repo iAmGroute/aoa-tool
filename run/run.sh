@@ -5,4 +5,4 @@ import ../docker.sh
 
 DOCKER=$(which_docker)
 set -x
-exec "$DOCKER" run -it --rm --init --device=/dev/bus/usb:/dev/bus/usb aoa-tool:latest aoa-tool "$@"
+exec "$DOCKER" run -i --rm --init --device=/dev/bus/usb:/dev/bus/usb aoa-tool:latest aoa-tool "$@"

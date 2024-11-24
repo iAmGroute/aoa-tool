@@ -10,7 +10,7 @@ cd ..
 if [ "$1" != '--container' ]; then
   DOCKER=$(which_docker)
   set -x
-  exec "$DOCKER" run -it --rm --init -v .:/wd --workdir /wd aoa-tool-buildenv:latest /wd/build/build.sh --container
+  exec "$DOCKER" run -i --rm --init -v .:/wd --workdir /wd aoa-tool-buildenv:latest /wd/build/build.sh --container
 fi
 
 cd scrcpy-for-aoa/
